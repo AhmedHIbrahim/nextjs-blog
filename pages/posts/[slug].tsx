@@ -1,4 +1,4 @@
-import PostContent from "@/components/posts/post-detail/post-content";
+import PostContent from "../../components/posts/post-detail/post-content";
 import { useRouter } from "next/router";
 import React, { Fragment } from "react";
 

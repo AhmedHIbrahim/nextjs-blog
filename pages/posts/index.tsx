@@ -1,4 +1,4 @@
-import AllPosts from "@/components/posts/all-posts";
+import AllPosts from "../../components/posts/all-posts";
 import { getAllPosts } from "../../lib/posts-util";
 import React, { Fragment } from "react";
 import Head from "next/head";
