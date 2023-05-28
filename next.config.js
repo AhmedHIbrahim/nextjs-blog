@@ -8,20 +8,22 @@ const nextConfig = (phase) => {
 
       env: {
         mongodb_username: "nasa-api",
-        mongodb_password: "e4DmlUgLn5hIcSlE",
+        mongodb_password: "vWYBUkqDQhVKY5Hm",
         mongodb_clustername: "nasacluster",
-        mongodb_database: "nextjs-dev", // <--
+        mongodb_database: "nextjs", // <--
+        AUTH_SECRET:"myauthsecret"
       },
     };
   }
   return {
     reactStrictMode: true,
-
+    
     env: {
       mongodb_username: "nasa-api",
-      mongodb_password: "e4DmlUgLn5hIcSlE",
+      mongodb_password: "vWYBUkqDQhVKY5Hm",
       mongodb_clustername: "nasacluster",
       mongodb_database: "nextjs",
+      AUTH_SECRET:"myauthsecret"
     },
   };
 };
